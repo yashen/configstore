@@ -1,0 +1,1 @@
+{"files":["/etc/default/docker","/etc/sysctl.conf"],"folders":[{"path":"/etc/lightdm","excludes":["*.conf","*"]}]}

@@ -1,0 +1,28 @@
+{
+  "name": "zconfigstore",
+  "version": "1.0.1",
+  "description": "更新配置文件到存储库，仓库使用git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files":[
+    "index.js",
+    "bin/configstore"
+  ],
+  "bin":{
+    "configstore":"./bin/configstore"
+  },
+  "maintainers":[
+    {
+      "name":"yashen",
+      "email":"yashen@gmail.com"
+    }
+  ],
+  "repository":"https://github.com/yashen/configstore.git",
+  "author": "yashen@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
